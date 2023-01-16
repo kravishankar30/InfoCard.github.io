@@ -1,3 +1,81 @@
-/* Your Styles Here */
+*{
+    box-sizing: border-box;
+}
+
 body{
+    background: url("background.png") no-repeat center fixed;
+    background-size: cover;
+}
+
+.card{
+    height: 530px;
+    width: 430px;
+    background-color: rgba(255, 255, 255, 0.06);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    margin: auto;
+    left:0;
+    right:0;
+    bottom:0;
+    top:0;
+    border-radius: 25% 10%;
+    box-shadow: 30px 30px 35px rgba(0,0,0,0.3);
+}
+
+.image{
+    height: 150px;
+    width: 150px;
+    background-color: rgba(255,255,255, 0.1);
+    backdrop-filter: blur(30px);
+    position:absolute;
+    margin: 25px auto;
+    left:0;
+    right:0;
+    border-radius: 50%;
+}
+
+.image img{
+    height: 90%;
+    border-radius: 50%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.description{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 180px;
+}
+
+.name{
+    font-size: 18px;
+    font-weight: bolder;
+    color: #192421;
+    margin: 3px 0;
+    letter-spacing: 0.6px;
+}
+
+.identity{
+    font-size: 16px;
+    font-weight: 700;
+    color: #354a44;
+    margin: 2px 0;
+    letter-spacing: 1px;
+}
+
+.info{
+    top: 215px;
+    position: absolute;
+    font-weight: 600;
+    font-size: 16px;
+    color:#263631;
+    margin: 25px 15px;
+    padding: 0px 10px;
+    text-align: justify;
+    text-justify: inter-word;
+    letter-spacing: 00.6px;
+    line-height: 1.3;
+    background-color: rgba(255,255,255,0.06);
+    border-radius: 5%;
 }
